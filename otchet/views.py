@@ -54,7 +54,7 @@ from .models import (
 )
 
 from .serializers import ProfileSerializer
-from .tasks import send_spam_send
+
 
 
 class ProfileAPIView(generics.ListAPIView):
